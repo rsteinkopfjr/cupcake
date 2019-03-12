@@ -2,23 +2,18 @@
   "name": "cupcake",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rsteinkopfjr/cupcake.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rsteinkopfjr/cupcake/issues"
-  },
-  "homepage": "https://github.com/rsteinkopfjr/cupcake#readme",
   "dependencies": {
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
     "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
   }
 }
